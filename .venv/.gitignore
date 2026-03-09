@@ -1,8 +1,0 @@
-# created by virtualenv automatically
-.venv/
-__pycache__/
-*.pyc
-data/raw/
-data/processed/
-warehouse/manufacturing.db
-.idea/
