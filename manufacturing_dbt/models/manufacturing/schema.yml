@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_production
+    columns:
+      - name: machine_id
+        tests:
+          - not_null
+      - name: units_produced
+        tests:
+          - not_null
+
+  - name: fct_machine_performance
+    columns:
+      - name: machine_id
+        tests:
+          - not_null
+      - name: oee
+        tests:
+          - not_null
